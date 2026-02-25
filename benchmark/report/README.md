@@ -40,9 +40,9 @@
 
 表 1.2.1-1：Openssh Log（File -> BlackHole / TCP -> BlackHole ）
 
-| 引擎          | 拓扑              | EPS     | MPS | CPU (Avg/Peak) | MEM (Avg/Peak)  | 性能倍数 |
-| :------------ | :---------------- | ------- | --- | :------------- | :-------------- | -------- |
-| **WarpParse** | File -> BlackHole | 595,500 | 167.53 | 579% / 594%    | 254 MB / 300 MB | **2.05x**   |
-| Vector        | File -> BlackHole | 290,500 | 81.73  | 628% / 693%    | 285 MB / 318 MB | 1.0x     |
-| **WarpParse** | TCP -> BlackHole  | 571,800 | 160.87 | 584% / 621%    | 420 MB / 431 MB | **2.03x**   |
-| Vector        | TCP -> BlackHole  | 282,100 | 79.36  | 547% / 566%    | 302 MB / 314 MB | 1.0x     |
+| 引擎          | 拓扑              | EPS     | MPS    | CPU (Avg/Peak) | MEM (Avg/Peak)  | 性能倍数  |
+| :------------ | :---------------- | ------- | ------ | :------------- | :-------------- | --------- |
+| **WarpParse** | File -> BlackHole | 629,200 | 177.01 | 564% / 585%    | 367 MB / 394 MB | **2.17x** |
+| Vector        | File -> BlackHole | 290,500 | 81.73  | 628% / 693%    | 285 MB / 318 MB | 1.0x      |
+| **WarpParse** | TCP -> BlackHole  | 571,800 | 160.87 | 584% / 621%    | 420 MB / 431 MB | **2.03x** |
+| Vector        | TCP -> BlackHole  | 282,100 | 79.36  | 547% / 566%    | 302 MB / 314 MB | 1.0x      |
